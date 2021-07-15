@@ -1,4 +1,4 @@
-appId: com.example.ElectronAutoUpdate
+appId: qhatinstaller
 publish:
   provider: github
   token: [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]

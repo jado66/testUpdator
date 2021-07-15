@@ -16,6 +16,9 @@
     "name": "jd",
     "email": "Jado66@gmail.com"
   },
+  "build": {
+    "appId": "qhatinstaller"
+  },
   "license": "MIT",
   "config": {
     "forge": {
