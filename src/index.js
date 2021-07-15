@@ -3,6 +3,7 @@ const path = require('path');
 const updater = require("electron-updater");
 const autoUpdater = updater.autoUpdater;
 
+//
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -26,7 +27,7 @@ const createWindow = () => {
     provider: "generic",
     requestHeaders: { "PRIVATE-TOKEN": "Personal access Token" },
     autoDownload: true,
-    url: "https://chunitops.integrity-apps.com/Jadon.Erwin/qhat-2.0-updater.git"
+    url: "https://github.com/jado66/testUpdator.git"
   });
 
   autoUpdater.checkForUpdates();
